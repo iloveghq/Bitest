@@ -1,0 +1,304 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\Bitest.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Bitest.ico"
+IDI_EVENT_REFLECT       ICON                    "res\\NoReflect.ico"
+IDI_EVENT_NOREFLECT     ICON                    "res\\Reflect.ico"
+IDI_ICON_ZOOMIN_H       ICON                    "res\\zoom_in_h.ico"
+IDI_ICON_ZOOMIN_V       ICON                    "res\\zoom_in_v.ico"
+IDI_ICON_ZOOMOUT_H      ICON                    "res\\zoom_out_h.ico"
+IDI_ICON_ZOOMOUT_V      ICON                    "res\\zoom_out_v.ico"
+IDI_ICON_ORIGINAL       ICON                    "res\\zoom_original_32px.ico"
+IDI_ICON_ZOOMIN         ICON                    "res\\zoom_in_32px.ico"
+IDI_ICON_ZOOMOUT        ICON                    "res\\zoom_out_32px.ico"
+IDI_ICON_ADDEVENT       ICON                    "res\\Add.ico"
+IDI_ICON_DELEVENT       ICON                    "res\\Delete.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 266, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About "
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,21
+    LTEXT           "Bitest V 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2014",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,201,50,50,16,WS_GROUP
+END
+
+IDD_BITEST_DIALOG DIALOGEX 0, 0, 606, 364
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "OTDR Bidirectional Test Analysis"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Language >",IDC_BUTTON_LANG,151,10,50,27
+    PUSHBUTTON      "Open Files",IDC_BUTTON_OPEN,43,10,50,27
+    PUSHBUTTON      "About",IDC_BUTTON_ABOUT,259,10,50,27
+    PUSHBUTTON      "",IDC_BUTTON_TRACE,43,41,534,128
+    CONTROL         "",IDC_LIST_EVENT,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,81,222,505,128
+    CONTROL         "A→B",IDC_RADIO_A2B,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,238,46,10
+    CONTROL         "B→A",IDC_RADIO_B2A,"Button",BS_AUTORADIOBUTTON,20,263,53,10
+    CONTROL         "Bidir",IDC_RADIO_BIDIRECTIONAL,"Button",BS_AUTORADIOBUTTON,20,289,46,10
+    PUSHBUTTON      "Print  >",IDC_BUTTON_PRINT,97,10,50,27,WS_DISABLED
+    PUSHBUTTON      "Original",IDC_BUTTON_ORIG,43,187,24,24,BS_ICON
+    PUSHBUTTON      "Zoom Out",IDC_BUTTON_ZOOMOUT,100,187,24,24,BS_ICON
+    PUSHBUTTON      "Zoom In",IDC_BUTTON_ZOOMIN,72,187,24,24,BS_ICON
+    PUSHBUTTON      "Exit",IDC_BUTTON_EXIT,312,10,50,27
+    PUSHBUTTON      "Zoom In H",IDC_BUTTON_ZOOMIN_H,128,187,24,24,BS_ICON
+    PUSHBUTTON      "Zoom Out H",IDC_BUTTON_ZOOMOUT_H,156,187,24,24,BS_ICON
+    PUSHBUTTON      "Zoom In V",IDC_BUTTON_ZOOMIN_V,184,187,24,24,BS_ICON
+    PUSHBUTTON      "Zoom Out V",IDC_BUTTON_ZOOMOUT_V,212,187,24,24,BS_ICON
+    LTEXT           "",IDC_STATIC_FILE1,446,15,131,8,SS_NOTIFY
+    LTEXT           "",IDC_STATIC_FILE2,443,27,134,8,SS_NOTIFY
+    PUSHBUTTON      "Setup",IDC_BUTTON_SETUP,205,10,50,27
+    CONTROL         "AB",IDC_CHECK_CURSORAB,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,108,34,10
+    CONTROL         "AB",IDC_RADIO_AB,"Button",BS_AUTORADIOBUTTON | WS_GROUP,7,128,24,10
+    CONTROL         "A/B",IDC_RADIO_AORB,"Button",BS_AUTORADIOBUTTON,7,143,28,10
+    PUSHBUTTON      "add event",IDC_BUTTON_ADD_EVENT,307,175,24,24,BS_ICON
+    PUSHBUTTON      "delete event",IDC_BUTTON_DEL_EVENT,351,177,24,24,BS_ICON
+END
+
+IDD_PAGE_OPEN_FILE DIALOGEX 0, 0, 408, 168
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Open Data Files"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT_PAGE_OPEN_A,32,38,227,22,ES_MULTILINE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Open A",IDC_BUTTON_PAGE_OPEN_A,270,36,60,23
+    LTEXT           "A---->B data file",IDC_STATIC_AB,33,22,84,12
+    EDITTEXT        IDC_EDIT_PAGE_OPEN_B,33,85,227,22,ES_MULTILINE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Open B",IDC_BUTTON_PAGE_OPEN_B,272,83,59,23
+    LTEXT           "B---->A data file",IDC_STATIC_BA,35,68,77,14
+    PUSHBUTTON      "OK",IDC_BUTTON_PAGE_OPEN_OK,126,135,59,23
+    PUSHBUTTON      "Cancel",IDC_BUTTON_PAGE_OPEN_CANCEL,219,135,59,23
+END
+
+IDD_PAGE_SETUP DIALOGEX 0, 0, 299, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Setting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDC_BUTTON_SETUP_OK,178,214,50,14
+    PUSHBUTTON      "取消",IDC_BUTTON_SETUP_CANCEL,239,214,50,14
+    GROUPBOX        "任务信息",IDC_SETUP_JOB_INFO,22,18,260,109
+    LTEXT           "任务编号",IDC_SETUP_QUESTID,35,38,46,8
+    LTEXT           "承包商",IDC_SETUP_CONTRACTOR,35,58,37,8
+    LTEXT           "用户",IDC_SETUP_CUSTOMER,35,78,29,8
+    LTEXT           "操作者",IDC_SETUP_OPERATOR,35,98,38,8
+    EDITTEXT        IDC_EDIT_QUESTID,90,35,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CONTRACTOR,90,55,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_CUSTOMER,90,75,65,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_OPERATOR,90,95,65,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "清空",IDC_BUTTON_SETUP_CLEAR,194,29,50,14
+    EDITTEXT        IDC_EDIT_COMMENT,90,142,135,59,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL
+    LTEXT           "注释",IDC_SETUP_COMMENT,35,142,38,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Bitest.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "Bitest.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 82
+    END
+
+    IDD_BITEST_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 599
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 357
+    END
+
+    IDD_PAGE_OPEN_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 401
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 161
+    END
+
+    IDD_PAGE_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 292
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_LANG MENU
+BEGIN
+    POPUP "语言"
+    BEGIN
+        MENUITEM "中文",                          ID_CHS
+        MENUITEM "English",                     ID_ENG
+    END
+END
+
+IDR_MENU_PRINT MENU
+BEGIN
+    POPUP "打印"
+    BEGIN
+        MENUITEM "Print",                       ID_PRINT
+        MENUITEM "Print Preview",               ID_PREVIEW
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "关于 Bitest(&A)..."
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\Bitest.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

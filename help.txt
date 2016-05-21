@@ -1,0 +1,1 @@
+1.Realse 文件夹内的sor.dll/gabor.dll与Debug文件夹内的是不同的。

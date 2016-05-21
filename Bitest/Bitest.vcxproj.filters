@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Sor files">
+      <UniqueIdentifier>{0f1c4ac2-134c-4544-b0b5-cf4586fd18fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{80f3b256-cca1-4455-81a0-b19ff778d03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Show">
+      <UniqueIdentifier>{0891ae09-a541-4687-9ee3-4b05368e6382}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="print">
+      <UniqueIdentifier>{66ba07d0-176d-4519-8d4e-4b5961b098ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BitestDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PageOpen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandwayReg.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="OtdrTrace.cpp">
+      <Filter>Show</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFrame.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPreviewView.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+    <ClCompile Include="MyView.cpp">
+      <Filter>print</Filter>
+    </ClCompile>
+    <ClCompile Include="SorAssist.cpp">
+      <Filter>Sor files</Filter>
+    </ClCompile>
+    <ClCompile Include="SorDllUtil.cpp">
+      <Filter>Sor files</Filter>
+    </ClCompile>
+    <ClCompile Include="PageSetup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GaborDllUtil.cpp">
+      <Filter>Sor files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bitest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BitestDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PageOpen.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DATASTRUCT.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandwayReg.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PrintConfig.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportConfig.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="VARIABLE.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="OtdrTrace.h">
+      <Filter>Show</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFrame.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPreviewView.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="MyView.h">
+      <Filter>print</Filter>
+    </ClInclude>
+    <ClInclude Include="SORDATA.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SorAssist.h">
+      <Filter>Sor files</Filter>
+    </ClInclude>
+    <ClInclude Include="SorDllUtil.h">
+      <Filter>Sor files</Filter>
+    </ClInclude>
+    <ClInclude Include="SorFile.h">
+      <Filter>Sor files</Filter>
+    </ClInclude>
+    <ClInclude Include="PageSetup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GaborDllUtil.h">
+      <Filter>Sor files</Filter>
+    </ClInclude>
+    <ClInclude Include="GaborResult.h">
+      <Filter>Sor files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Bitest.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bitest.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NoReflect.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Reflect.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+    <None Include="res\icon1.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_original_32px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_out_32px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_in_32px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\Bitest_OTDR双端测试数据分析\Bitest\res\zoom_original_32px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\Bitest_OTDR双端测试数据分析\Bitest\res\zoom_out_32px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\..\Bitest_OTDR双端测试数据分析\Bitest\res\zoom_in_32px.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_in_h.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_in_v.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_out_h.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\zoom_out_v.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Add.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Delete.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bitest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

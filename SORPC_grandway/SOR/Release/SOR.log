@@ -1,0 +1,83 @@
+﻿生成启动时间为 2016/4/11 15:23:10。
+     1>项目“D:\SORPC_grandway\SOR\SOR.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\SOR.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\SOR.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\SOR.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt SOR.cpp SorAssist.cpp SorFile.cpp SorFileBase.cpp
+         SOR.cpp
+         SorAssist.cpp
+     1>SorAssist.cpp(28): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorAssist.cpp(58): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>SorAssist.cpp(75): warning C4244: “=”: 从“float”转换到“unsigned int”，可能丢失数据
+     1>SorAssist.cpp(88): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorAssist.cpp(89): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorAssist.cpp(90): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorAssist.cpp(147): warning C4244: “=”: 从“float”转换到“INT”，可能丢失数据
+     1>SorAssist.cpp(148): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+     1>SorAssist.cpp(149): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+     1>SorAssist.cpp(150): warning C4244: “=”: 从“float”转换到“INT”，可能丢失数据
+     1>SorAssist.cpp(165): warning C4244: “=”: 从“float”转换到“long”，可能丢失数据
+         SorFile.cpp
+         SorFileBase.cpp
+     1>SorFileBase.cpp(1): warning C4603: “_AFXEXT”: 未定义宏或在预编译头使用后定义发生改变
+                 将宏添加到预编译头中，而不是在此处定义
+                 SorFileBase.cpp(2) : 使用预编译头
+     1>SorFileBase.cpp(213): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1001): warning C4101: “factor”: 未引用的局部变量
+     1>SorFileBase.cpp(1295): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1337): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1339): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1457): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1493): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1519): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1533): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1559): warning C4101: “sValue”: 未引用的局部变量
+     1>SorFileBase.cpp(1558): warning C4101: “num”: 未引用的局部变量
+     1>SorFileBase.cpp(1661): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>SorFileBase.cpp(1713): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1724): warning C4305: “初始化”: 从“double”到“float”截断
+     1>SorFileBase.cpp(1725): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1730): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1732): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1752): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1776): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1777): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1778): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1779): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>SorFileBase.cpp(1803): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1852): warning C4018: “<”: 有符号/无符号不匹配
+     1>SorFileBase.cpp(1863): warning C4244: “=”: 从“float”转换到“INT”，可能丢失数据
+     1>SorFileBase.cpp(1867): warning C4244: “=”: 从“time_t”转换到“UINT”，可能丢失数据
+     1>SorFileBase.cpp(1868): warning C4244: “=”: 从“long”转换到“short”，可能丢失数据
+     1>SorFileBase.cpp(1869): warning C4244: “=”: 从“long”转换到“short”，可能丢失数据
+     1>SorFileBase.cpp(1874): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>SorFileBase.cpp(1878): warning C4244: “=”: 从“long”转换到“short”，可能丢失数据
+     1>SorFileBase.cpp(1912): warning C4244: “=”: 从“float”转换到“short”，可能丢失数据
+     1>SorFileBase.cpp(1913): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+     1>SorFileBase.cpp(1914): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+     1>SorFileBase.cpp(1915): warning C4244: “=”: 从“float”转换到“unsigned short”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\SOR.res" SOR.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SORPC_grandway\Release\SOR.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\SOR.def" /MANIFEST /ManifestFile:"Release\SOR.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SORPC_grandway\Release\SOR.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SORPC_grandway\Release\SOR.lib" /MACHINE:X86 /DLL Release\SOR.res
+         Release\SOR.obj
+         Release\SorAssist.obj
+         Release\SorFile.obj
+         Release\SorFileBase.obj
+         Release\stdafx.obj
+            正在创建库 D:\SORPC_grandway\Release\SOR.lib 和对象 D:\SORPC_grandway\Release\SOR.exp
+         正在生成代码
+         已完成代码的生成
+         SOR.vcxproj -> D:\SORPC_grandway\Release\SOR.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SORPC_grandway\Release\SOR.dll;#2" /manifest Release\SOR.dll.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\SOR.unsuccessfulbuild”。
+         正在对“Release\SOR.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\SORPC_grandway\SOR\SOR.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.33
